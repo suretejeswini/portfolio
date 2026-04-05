@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tejeswini Sure Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+  <section id="home">
+    <div class="hero-bg-blob blob-1"></div>
+    <div class="hero-bg-blob blob-2"></div>
+    <div class="hero-inner">
+      <div class="polaroid-wrap">
+        <div class="polaroid">
+          <img src="tejeswini.jpeg" alt="Tejeswini Sure" onerror="this.style.background='#C4A882';this.style.display='block';this.parentElement.querySelector('.polaroid-label').textContent='✦ Tejeswini ✦'"/>
+          <div class="polaroid-label">Sure Tejeswini </div>
+        </div>
+      </div>
+      <div class="hero-greeting">Hi, I'm</div>
+      <h1 class="hero-name">Sure Tejeswini</h1>
+      <p class="hero-tagline">
+        UI/UX Designer <span>·</span> Frontend Developer <span>·</span> Creative Thinker
+      </p>
+      <a href="#about" class="hero-cta">
+        Explore my work
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </section>
+  <section id="about">
+    <div class="reveal">
+      <span class="section-tag">Get to know me</span>
+      <h2 class="section-title">About Me</h2>
+      <div class="divider"></div>
+      <p class="about-bio">
+        I'm a passionate UI/UX designer and aspiring AI-driven product creator with a strong focus on crafting intuitive, visually engaging digital experiences. With a background in computer science, I enjoy blending design aesthetics with functionality — building things that are as beautiful as they are useful.
+      </p>
+      <div class="about-details">
+        <div class="detail-item">
+          <div class="detail-label">Name</div>
+          <div class="detail-value">Sure Tejeswini</div>
+        </div>
+        <div class="detail-item">
+          <div class="detail-label">Department</div>
+          <div class="detail-value">CSE (Information Security)</div>
+        </div>
+        <div class="detail-item">
+          <div class="detail-label">University</div>
+          <div class="detail-value">VIT Vellore</div>
+        </div>
+        <div class="detail-item">
+          <div class="detail-label">Year</div>
+          <div class="detail-value">2nd Year</div>
+        </div>
+        <div class="detail-item">
+          <div class="detail-label">Email</div>
+          <div class="detail-value">sure.tejeswini@gmail.com</div>
+        </div>
+        <div class="detail-item">
+          <div class="detail-label">CGPA</div>
+          <div class="detail-value">9.1 (Till 3rd Sem)</div>
+        </div>
+      </div>
+      <div class="detail-label">Interests</div>
+      <div class="interests-wrap">
+        <span class="interest-pill">Music</span>
+        <span class="interest-pill">UI/UX</span>
+        <span class="interest-pill">Dance</span>
+        <span class="interest-pill">Art & Design</span>
+        <span class="interest-pill">Frontend</span>
+      </div>
+      <br/>
+      <a href="Tejeswini_Resume.pdf" download class="resume-btn">
+        ↓ Download Resume
+      </a>
+    </div>
+    
+  </section>
+  <section id="education">
+    <span class="section-tag">My Academic Journey</span>
+    <h2 class="section-title">Education</h2>
+    <div class="divider"></div>
+    <div class="edu-timeline">
+      <div class="edu-item reveal">
+        <div class="edu-year">2024 – Present</div>
+        <div class="edu-degree">B.Tech – CSE (Information Security)</div>
+        <div class="edu-school">Vellore Institute of Technology, Vellore</div>
+        <span class="edu-grade">CGPA: 9.1 (till 3rd Semester)</span>
+        <div class="edu-extras">
+          <span class="edu-extra-tag">Currently 2nd Year</span>
+          <span class="edu-extra-tag">Senior Core Member – Creativity Club</span>
+        </div>
+        
+      </div>
+      <div class="edu-item reveal">
+        <div class="edu-year">2009 – 2023</div>
+        <div class="edu-degree">School</div>
+        <div class="edu-school">DPS FARIDABAD</div>
+        <span class="edu-grade">Class X:95.2% </span>
+        <span class="edu-grade">Class XII:91.2% </span>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <span class="section-tag">What I bring</span>
+    <h2 class="section-title">Skills & Services</h2>
+    <div class="divider"></div>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="skill-card-title">UI/UX Design</div>
+        <ul class="skill-list">
+          <li>User Research</li>
+          <li>Wireframing</li>
+          <li>Prototyping</li>
+          <li>Figma</li>
+          <li>Visual Design</li>
+          <li>Accessibility</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Frontend Development</div>
+        <ul class="skill-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Responsive Design</li>
+          <li>Canva</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Programming</div>
+        <ul class="skill-list">
+          <li>C</li>
+          <li>C++</li>
+          <li>Java</li>
+          <li>python</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Creative & Soft Skills</div>
+        <ul class="skill-list">
+          <li>Creative Thinking</li>
+          <li>Detail-Oriented</li>
+          <li>Team Collaboration</li>
+          <li>Event Planning</li>
+          <li>Quick Learner</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Design Tools</div>
+        <ul class="skill-list">
+          <li>Figma</li>
+          <li>Canva</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <div class="skill-card-title">Currently Learning</div>
+        <ul class="skill-list">
+          <li>AI Integration</li>
+          <li>Cloud Technologies</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <span class="section-tag">My Work</span>
+    <h2 class="section-title">UI/UX Projects</h2>
+    <div class="divider"></div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-card-header proj-1"></div>
+        <div class="project-card-body">
+          <div class="project-type">UI/UX Design · Figma</div>
+          <div class="project-name">SwiftMovers</div>
+          <p class="project-desc">A seamless moving & logistics platform designed for effortless user experience — from booking to tracking, every interaction crafted with care.</p>
+          <a href="https://www.figma.com/design/EmekXQZBIhckl79cJo6YdF/Untitled?m=draw" target="_blank" class="project-link">
+            View on Figma
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-card-header proj-2"></div>
+        <div class="project-card-body">
+          <div class="project-type">UI/UX Design · Figma</div>
+          <div class="project-name">HelpMate</div>
+          <p class="project-desc">A community-driven help and support platform with an intuitive interface that connects people who need assistance with those who can provide it.</p>
+          <a href="https://www.figma.com/design/t0g0zP8EccZCNaC4lXtIg2/Untitled?node-id=3-22&m=draw" target="_blank" class="project-link">
+            View on Figma
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-card-header proj-3"></div>
+        <div class="project-card-body">
+          <div class="project-type">UI/UX Design · Figma</div>
+          <div class="project-name">WellNest</div>
+          <p class="project-desc">A wellness and mental health app design focused on calm, accessible, and encouraging UI — helping users build healthy daily habits.</p>
+          <a href="https://www.figma.com/design/yZfJfpCZTdmYToleaaccOB/Untitled?m=draw" target="_blank" class="project-link">
+            View on Figma
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-card-header proj-4"></div>
+        <div class="project-card-body">
+          <div class="project-type">UI/UX Design · Figma</div>
+          <div class="project-name">HealthSync+</div>
+          <p class="project-desc">A modern health-tracking platform UI with Hero, Features, Testimonials, Pricing sections — designed with consistent visual hierarchy and accessibility in mind.</p>
+          <a href="https://www.figma.com/design/ICOYCFnAUfumsCo4DKdl8A/Untitled?t=N7XtTglAqEWWHhsn-0" target="_blank" class="project-link">
+            View on Figma
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-card-header proj-5"></div>
+        <div class="project-card-body">
+          <div class="project-type">UI/UX Design · Figma</div>
+          <div class="project-name">Hackathon Website</div>
+          <p class="project-desc">Designed and developed a hackathon website for a university club featuring event registration, user sign-up/login, and FAQ — with clean UI and secure access.</p>
+          <a href="https://www.figma.com/design/dVfV7dM6LVoR1x7yD8rdto/Untitled?t=IXbaObo49mfjiaA0-0" target="_blank" class="project-link">
+            View on Figma
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M7 17L17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section id="contact">
+    <div class="reveal">
+      <span class="section-tag">Let's Connect</span>
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="divider"></div>
+      <p style="font-size: 16px;">
+        Have a project in mind or just want to say hi? I'd love to hear from you. Drop me a message and I'll get back to you soon!
+      </p>
+      <br>
+      <div class="contact-info-item">
+        <div class="contact-text">
+          <strong>Email</strong>
+          sure.tejeswini@gmail.com
+        </div>
+      </div>
+      <div class="contact-info-item">
+        <div class="contact-text">
+          <strong>Phone</strong>
+          +91 8595964012
+        </div>
+      </div>
+      <div class="contact-info-item">
+        <div class="contact-text">
+          <strong>University</strong>
+          VIT Vellore, Tamil Nadu
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" placeholder="Jane Doe" required />
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="jane@example.com" required />
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea rows="5" placeholder="Tell me about your project or idea..." required></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send Message →</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p>Crafted with love by Sure Tejeswini &nbsp;·&nbsp; 2026</p>
+  </footer>
+
+  <script>
+    // ── Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+    });
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.addEventListener('click', () => {
+        document.getElementById('navLinks').classList.remove('open');
+      });
+    });
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(l => l.classList.remove('active'));
+          const active = document.querySelector(`.nav-links a[href="#${entry.target.id}"]`);
+          if (active) active.classList.add('active');
+        }
+      });
+    }, { threshold: 0.4 });
+
+    sections.forEach(s => observer.observe(s));
+
+    const reveals = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), i * 80);
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    reveals.forEach(el => revealObserver.observe(el));
+    function handleSubmit(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('button');
+      btn.textContent = '✓ Message Sent!';
+      btn.style.background = 'var(--warm-brown)';
+      setTimeout(() => {
+        btn.textContent = 'Send Message →';
+        btn.style.background = '';
+        e.target.reset();
+      }, 3000);
+    }
+  </script>
+</body>
+</html>
